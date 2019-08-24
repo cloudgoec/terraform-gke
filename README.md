@@ -2,7 +2,7 @@
 Instalar Google Kubernetes Engine con Terraform (Youtube Videotutorial)
 - Videotutorial Parte 1: https://youtu.be/yWiawq_SVNY
 - Videotutorial Parte 2: https://youtu.be/e7zaUCvx9U8
-- Videotutorial Parte 3: https://youtu.be/d6h6x99Z4gE
+- Videotutorial Parte 3: https://youtu.be/kr6ssILn_lM
 
 
 
