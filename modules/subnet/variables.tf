@@ -1,27 +1,11 @@
-variable "environment" {
-  default = "development"
-}
+variable "environment" {}
 
-variable "organization" {
-  default = "pichincha"
-}
+variable "organization" {}
 
-variable "project" {
-  default = "credit"
-}
+variable "project" {}
 
-variable "private_subnet_cidr" {
-  default = "10.10.1.0/24"
-}
+variable "private_subnet_cidr" {}
 
-variable "public_subnet_cidr" {
-  default = "10.10.2.0/24"
-}
+variable "network_self_link" {}
 
-variable "network_self_link" {
-  default = ""
-}
-
-variable "region" {
-  default = "us-east4"
-}
+variable "region" {}

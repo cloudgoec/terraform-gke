@@ -1,8 +1,3 @@
-output "out_public_subnet_name" {
-  value = google_compute_subnetwork.subnet-public.name
-}
-
-
 output "out_private_subnet_name" {
   value = google_compute_subnetwork.subnet-private.name
 }

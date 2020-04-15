@@ -1,10 +1,3 @@
-resource "google_compute_subnetwork" "subnet-public" {
-  name                       = "${var.environment}-${var.organization}-${var.project}-subnet-public"
-  ip_cidr_range              = var.public_subnet_cidr
-  network                    = var.network_self_link
-  region                     = var.region
-}
-
 resource "google_compute_subnetwork" "subnet-private" {
   name                      = "${var.environment}-${var.organization}-${var.project}-subnet-private"
   ip_cidr_range             = var.private_subnet_cidr
